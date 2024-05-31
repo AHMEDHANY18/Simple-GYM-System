@@ -1,0 +1,18 @@
+[
+    {
+        "id":1,
+        "name": "saad",
+        "Duration":{
+            "from":"12pm",
+            "to":"6pm"
+        }
+    },
+    {
+        "id":2,
+        "name": "gamal",
+        "Duration":{
+            "from":"6pm",
+            "to":"12am"
+        }
+    }
+]

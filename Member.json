@@ -1,0 +1,98 @@
+[
+    {
+        "id": "1",
+        "Name": "Ahmed",
+        "Nationalid": "30303262105533",
+        "PhoneNumber": "01151117044",
+        "Membership": {
+            "From": "2024-01-01",
+            "To": "2025-01-01",
+            "Cost": "1500"
+        },
+        "Status": {
+            "Active": true,
+            "Frozen": false
+        },
+        "Trainerid": "1"
+    },
+    {
+        "id": "2",
+        "Name": "hany",
+        "Nationalid": "30303262108533",
+        "PhoneNumber": "01226171610",
+        "Membership": {
+            "From": "2024-01-01",
+            "To": "2024-04-15",
+            "Cost": "750"
+        },
+        "Status": {
+            "Active": false,
+            "Frozen": true
+        },
+        "Trainerid": "2"
+    },
+    {
+        "id": "3",
+        "Name": "sayed",
+        "Nationalid": "30303762108533",
+        "PhoneNumber": "01296171610",
+        "Membership": {
+            "From": "2024-01-01",
+            "To": "2024-08-15",
+            "Cost": "1000"
+        },
+        "Status": {
+            "Active": true,
+            "Frozen": false
+        },
+        "Trainerid": "1"
+    },
+        {
+        "id": "4",
+        "Name": "mahmoud",
+        "Nationalid": "30373262108533",
+        "PhoneNumber": "01226171618",
+        "Membership": {
+            "From": "2024-01-01",
+            "To": "2024-03-15",
+            "Cost": "250"
+        },
+        "Status": {
+            "Active": false,
+            "Frozen": true
+        },
+        "Trainerid": "2"
+    },
+    {
+        "id": "5",
+        "Name": "hamada",
+        "Nationalid": "30309262108533",
+        "PhoneNumber": "01226171610",
+        "Membership": {
+            "From": "2024-01-01",
+            "To": "2024-12-15",
+            "Cost": "1200"
+        },
+        "Status": {
+            "Active": true,
+            "Frozen": false
+        },
+        "Trainerid": "2"
+    },
+    {
+        "id": "6",
+        "Name": "samy",
+        "Nationalid": "30309262108533",
+        "PhoneNumber": "01022327715",
+        "Membership": {
+            "From": "2023-01-01",
+            "To": "2025-12-15",
+            "Cost": "2500"
+        },
+        "Status": {
+            "Active": true,
+            "Frozen": false
+        },
+        "Trainerid": "1"
+    }
+]
