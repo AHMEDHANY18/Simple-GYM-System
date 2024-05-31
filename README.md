@@ -1,41 +1,3 @@
-# Simple GYM System
-
-This project implements a simple GYM System using Express for managing members, trainers, and calculating revenues.
-
-## Setup
-
-1. Clone the repository.
-2. Install dependencies using `npm install`.
-3. Start the server using `npm start`.
-
-## APIs
-
-### Members
-
-1. **POST /members**: Add a member (must be unique). (هشوف اذا كان اال ID موجود ولا لا )
-2. **GET /members**: Get all members and their trainer. (زي الاسايمنت اللي فات)
-3. **GET /members/:id**: Get a specific member (if membership expired, return "this member is not allowed to enter the gym").(دا في حاله اذا العضويه بتاعته انتهت ولا لا )
-4. **PUT /members/:id**: Update member information (name, membership, trainer id).
-5. **DELETE /members/:id**: Soft delete a member.(نعرف نجيبه تاانى عادى)
-
-### Trainers
-
-1. **POST /trainers**: Add a trainer.
-2. **GET /trainers**: Get all trainers and their members.
-3. **PUT /trainers/:id**: Update trainer information.
-4. **DELETE /trainers/:id**: Delete a trainer.
-5. **GET /trainers/:id**: Get a specific trainer and their members.
-
-### Statistics
-
-1. **GET /statistics/revenues**: Get all revenues of all members.
-2. **GET /statistics/revenues/:trainerId**: Get the revenues of a specific trainer.(لو مثلا المدرب معاه 5 اشخاص فا المفروض اشوف ال5 اشخاص دافعين كام وارجع الملبغ )
-
-## Dependencies
-
-- express
-
-or
 
 # Gym Management System
 
@@ -91,5 +53,5 @@ Feel free to contribute or provide feedback to enhance this system further!
 
 This README provides a comprehensive guide on installation, usage, endpoints, error handling, and sample requests/responses for the Gym Management System API.
 
-i used chatGpt to make README file
+
 ```
